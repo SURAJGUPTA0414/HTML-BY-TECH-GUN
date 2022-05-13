@@ -574,7 +574,7 @@ Attribute: additional info about Attributes -->
 </html> -->
 
 <!-- form input types -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -649,5 +649,266 @@ Attribute: additional info about Attributes -->
 
 
     </form>
+</body>
+</html> -->
+
+<!-- form file upload -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  enctype="multipart/form-data">
+    <input type="file" multiple>
+     </form>
+    
+</body>
+</html> -->
+
+<!-- html input attribute -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="suraj" placeholder="enter name" readonly  >
+    <input type="text" value="suraj" disabled >
+    <input type="text" value="suraj" maxlength="20" size="50" >
+    <input type="submit" value="go" >
+    <input type="number" min="10" max="20" >
+    <input type="text"  placeholder="enter name" required   >
+    <input type="number" value="1" step="5">
+    <input type="text" autofocus>
+    <input type="text" autocomplete="on">
+    <input type="text" name="fisrtname">
+</body>
+</html> -->
+
+<!-- html text area and image button -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <textarea rows="10" cols="10" placeholder="ebeewwwewxewxew">
+hii 
+    </textarea>
+    <input type="image" src="0001.jpg" height="100" width="50">
+</form>
+</body>
+</html> -->
+
+<!-- html form selection option -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select size="2" multiple >
+        <option>audi</option>
+        <option selected>bmw</option>
+        <option>tata</option>
+    </select>
+
+    <select  >
+        <optgroup label="car">
+        <option>audi</option>
+        <option >bmw</option>
+        <option>tata</option>
+    </optgroup>
+    <optgroup label="sports">
+        <option>cricket</option>
+        <option>footbal</option>
+    </optgroup>
+    </select>
+    
+</body>
+</html> -->
+
+<!-- radio button -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <input type="radio" value="male" name="gender">male
+    <input type="radio" value="female" name="gender" checked>female
+    <input type="radio" value="other" name="gender">other
+    <br><br>
+    <input type="radio" value="manager" name="emptype" checked>manager
+    <input type="radio" value="dev" name="emptype">dev
+</form>
+</body>
+</html> -->
+
+<!-- html checkbox -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <form>
+        <input type="radio" value="male" name="gender">male
+        <input type="radio" value="female" name="gender" checked>female
+        <input type="radio" value="other" name="gender">other
+        <br><br>
+        <input type="checkbox" value="manager" name="emptype" checked>manager
+        <input type="checkbox" value="dev" name="emptype">dev
+    </form>
+    
+</body>
+</html> -->
+
+<!-- html datalist -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    search<input type="text" list="search">
+    <datalist id="search">
+       <option value="mango"></option>
+       <option value="banana"></option>
+       <option value="perru"></option>
+    </datalist>
+
+    <input type="submit" value="search">
+</body>
+</html> -->
+
+<!-- label,fieldset,legend -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="fname">firstname</label>
+    <input type="text" name="first_name" id="fname">
+
+    <label for="lname">lastnamename</label>
+    <input type="text" name="last_name" id="lname">
+    </div>
+
+    <div>
+        <label for="adress">adress</label>
+    <input type="text" name="adress" id="adress">
+
+    <label for="mobno">mobno</label>
+    <input type="text" name="mobno" id="mobno">
+    </div>
+
+    <fieldset>
+        <legend>basic information:</legend>
+        <label for="fname">firstname</label>
+    <input type="text" name="first_name" id="fname">
+
+    <label for="lname">lastnamename</label>
+    <input type="text" name="last_name" id="lname">
+    </fieldset>
+
+    <fieldset>
+        <legend>other information:</legend>
+        <label for="adress">adress</label>
+    <input type="text" name="adress" id="adress">
+
+    <label for="mobno">mobno</label>
+    <input type="text" name="mobno" id="mobno">
+    </fieldset>
+
+    <fieldset>
+    <input type="submit">
+    </fieldset>
+    
+</body>
+</html> -->
+
+<!-- SEO TAG SEARCH ENGINE OPTIMIZATION -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <meta name="description" content="this is a page abbout new car" />
+    <meta name="keyword" content="new,car"/>
+    <link rel="cononical" href="car.html"/>
+    <meta name="robot" content="noindex,nofollow"/>
+</head>
+<body>
+
+    
+</body>
+</html> -->
+
+<!-- favicon -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta name="description" content="this is a page abbout new car" />
+    <meta name="keyword" content="new,car"/>
+    <link rel="cononical" href="car.html"/>
+    <meta name="robot" content="noindex,nofollow"/>
+
+    <link rel="icon" href="favicon.jpg" type="image/jpeg"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 </body>
 </html>
